@@ -1,0 +1,17 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - jupyter
+  - matplotlib
+  - pandas
+  - pip
+  - pyqt
+  - scikit-image
+  - numpy
+  - scipy
+  - seaborn
+  - pip:
+    - youtube-dl
